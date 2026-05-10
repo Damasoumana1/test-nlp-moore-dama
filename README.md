@@ -4,6 +4,7 @@ Ce projet a été réalisé dans le cadre d'un test technique pour le poste de S
 
 ## Structure du Projet
 
+- **Google Colab** : [Accéder au Notebook en direct](https://drive.google.com/file/d/1dgU4B6I1DlYNWUwmfmUOUn1W8hbPDQZk/view?usp=sharing)
 - `traduction_moore_francais.ipynb` : Le notebook principal contenant tout le processus (exploration, préparation, entraînement, évaluation et test interactif).
 - `corpus/` : Contient les fichiers sources `moore.txt` et `francais.txt`.
 - `requirements.txt` : Liste des dépendances Python.
