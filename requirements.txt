@@ -1,0 +1,7 @@
+# Bibliothèques nécessaires pour le projet de traduction Moore -> Français
+tensorflow>=2.0.0
+numpy
+pandas
+matplotlib
+scikit-learn
+nltk
