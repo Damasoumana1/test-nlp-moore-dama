@@ -32,6 +32,15 @@ Le modèle est basé sur une architecture **Sequence-to-Sequence (Seq2Seq)** uti
 3. Lancer le notebook :
    Ouvrez `traduction_moore_francais.ipynb` avec Jupyter Notebook ou Google Colab et exécutez toutes les cellules.
 
+## Instructions Spécifiques pour Google Colab
+
+Si vous utilisez Google Colab, suivez ces étapes pour garantir le bon chargement des données :
+
+1. Importez le dossier `corpus` (contenant `moore.txt` et `francais.txt`) dans l'onglet **Fichiers** de la barre latérale gauche.
+2. Assurez-vous que le dossier est nommé `corpus`. 
+3. Le code utilise des chemins relatifs (`corpus/moore.txt`). Si vous placez le dossier ailleurs (par exemple dans `sample_data`), veuillez ajuster la cellule "Définition des chemins du corpus" en conséquence (ex: `/content/sample_data/corpus/moore.txt`).
+4. Allez dans le menu **Exécution > Tout exécuter**.
+
 ## Évaluation
 
 Le modèle est évalué via le score BLEU et une analyse qualitative d'exemples dans la section 5 du notebook. Une cellule interactive finale (Section 6) permet de tester des phrases personnalisées.
